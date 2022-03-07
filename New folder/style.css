@@ -161,11 +161,14 @@ select {}
     position:relative;
     left:2%;
     top:19%;
-    color:#192F60;
     font-size:30px;
     font-weight:800;
     font-family: 'Poppins', sans-serif;
     display:block;
+}
+#title a{
+    text-decoration:None;
+    color:#192F60;
 }
 #location{
     position:relative;
