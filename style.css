@@ -2,6 +2,7 @@
     padding:0%;
     margin:0%;
 }
+
 .head{
     position: relative;
     width:100%;
@@ -70,7 +71,8 @@ section>h2{
 }
 .options{
     width:190px;
-    height: 94vh;
+    height: 87vh;
+    background:white;
     box-shadow: 0px 3px 6px #00000029;
     float:left;
     padding: 2%;
@@ -99,7 +101,7 @@ select {}
 
 }
 .options h5{
-    margin-top: 2%;
+    margin-top: 9%;
     margin-bottom: 0%;
     font-size: 14px;
     color:#192F60;
@@ -107,7 +109,7 @@ select {}
     font-weight: 400;
 }
 .options p{
-    margin-top:7%;
+    margin-top:5%;
     font-size:14px;
     color:#8C96AB;
     font-family:'Poppins', sans-serif ;
@@ -122,6 +124,7 @@ select {}
     width:60%;
     height:85vh;
     margin-left:5%;
+    background:white;
 }
 .itemCard{
     width:100%;
@@ -275,4 +278,34 @@ select {}
 .box:hover{
     background:#8C96AB;
     color:white;
+}
+footer{
+    position:absolute;
+    width:80%;
+    top:125vh;
+    float:left;
+    margin-left: 10%;
+    text-align:center;
+    
+}
+footer hr{
+    border-top:5px double rgba(0, 0, 0, 0.2);
+}
+footer h2{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color:#192F60;
+}
+footer h3{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color:#28395f;
+}
+footer h3 span{
+    color:rgb(122, 0, 0);
+}
+footer h4{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color:#192F60;
 }
