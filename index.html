@@ -4,122 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6606e36ae0.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>D!- Page2</title>
+    <title>D!-evmato</title>
 </head>
+
 <body>
-    <header>
-        <div class="head">
-            <div class="logo">
-               <a href="#" rel="home"><span>D!</span></a> 
+    <header> 
+        <div>
+            <div class="head">
+                <h1> <span class="ex"> D!</span> E V M A T O</span>
             </div>
-            </div>
-            <div class="logins">
-                <a href="#" target="_blank" rel="Login">Login</a>
-                <button id="ca" type="button">Create an Account</button>
+            <div class="links">
+               <a href="https://www.facebook.com/koushal936" rel="facebook" target="_blank"> <img src="https://img.icons8.com/fluency/48/000000/meta.png"/></a>
+               <a href="https://www.instagram.com/koushal_kandagatla/" rel="instagram" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+               <a href="https://github.com/k-Koushal/Food_Delivery_website" rel="github" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
+                
             </div>
         </div>
     </header>
-    <section>
-        <h2>Breakfast Places in Hyderabad</h2>
-        <div class="options">
-            <h3>Filters</h3>
-            <h5>Select Location</h5>
-            <select>
-                <option id="opening">Select location</option>
-                <option >Hitech City</option>
-                <option>Madhapur</option>
-                <option>Kondapur</option>
-            </select>
-            <h5>Cuisine</h5>
-           <div>
-                <p><input type="checkbox">  North Indian</p>
-                <p><input type="checkbox">  South Indian</p>
-                <p><input type="checkbox">  Italian</p>
-                <p><input type="checkbox">  Continental</p>
-                <p><input type="checkbox">  Thai</p>
-            </div> 
-            <h5>Cost for two</h5>
-            <div>
-                <p><input type="radio">  less than `500</p>
-                <p><input type="radio">  `500 -`1000</p> 
-                <p><input type="radio"> `1000 -`1500</p>
-                <p><input type="radio"> `1500-`2000</p>
-                <p><input type="radio">  more than `2000</p>
+    <div class="search">
+        <div class="darkness">
+            <div class="logo">
+                <span>D!</span>
             </div>
-            <h5>Sort</h5>
-            <div>
-                <p><input type="radio"> Price low to high</p>
-                <p><input type="radio">  price high to low</p>
+            <div class="downMenue">
+                <select >
+                    <option>---Select City---</option>
+                    <option>Hyderabad</option>
+                    <option>Bengaluru</option>
+                    <option>Chennai</option>
+                    <option>Trivandrum</option>
+                    <option>Panaji </option>
+                </select>
+                <select>
+                    <option>---Select Restaurants---</option>
+                </select>
             </div>
-            
 
         </div>
-        <div class="items">
-            <div id="it1" class="itemCard">
-                <div class="pic">
-                    <img src="https://i.ibb.co/FDG23Hb/veganfood.jpg" alt="veganfood" >
+    </div>
+    <div class="sec2">
+        <a class="cardlink" href="listing.html">
+            <div class="card">
+                <div class="cardpic">
                 </div>
-                <div class="details">
-                    <span id="title"><a href="#" > TEERASEN CAFE</a></span>
-                    <span id="location">Banjara Hills</span>
-                    <span id="address">8-2/418/1/2, Opp. Goethe Zentrum, Road 4.</span>
+                <div class="carddetail">
+                    <span>Order Food Online</span>
                 </div>
-                <div class="cost">
-                    <div class="cost-right">
-                        <h3 id="h3-1">CUISINE  </h3>
-                        <h3 id="h3-2">COST FOR TWO </h3>
-                    </div>
-                    <div class="cost-left">
-                        <h3>: &#160; &#160; Italian  </h3>
-                        <h3>: &#160; &#160; 700 &#8377 </h3>
-                    </div>
-                 
-                </div>
-            </div>
-            <div id="it2" class="itemCard">
-                <div class="pic"><img src="https://i.ibb.co/CnfXtHs/veganfood2.jpg" alt="veganfood2"></div>
-                <div class="details">
-                    <span id="title"><a href="#">AURA CAFE</a> </span>
-                    <span id="location">Jubilee Hills</span>
-                    <span id="address">Plot No, 280-A, Rd Number 10C, Venkatagiri,</span>
-                </div>
-                <div class="cost">
-                    <div class="cost-right">
-                        <h3 id="h3-1">CUISINE  </h3>
-                        <h3 id="h3-2">COST FOR TWO </h3>
-                    </div>
-                    <div class="cost-left">
-                        <h3>: &#160; &#160; Continental  </h3>
-                        <h3>: &#160; &#160; 900 &#8377 </h3>
-                    </div>
-            </div>
-        </div>
-            <div class="pagelist">
-                <a class="box" href="#">1</a>
-                <a class="box" href="#">2</a>
-                <a class="box" href="#">3</a> 
-                <a class="box" href="#">4</a>
-                <a class="box" href="#">5</a>
-                <a class="box" href="#">6</a>
-                <a class="box" href="#">&gt</a> 
-
-               
                 
             </div>
-    </section>
+        </a>
+        <a class="cardlink" href="listing.html">
+            <div class="card">
+                <div class="cardpic two">
+                </div>
+                <div class="carddetail">
+                    <span>Go out for a meal</span>
+                </div>
+                
+            </div>
+        </a>
+        <a class="cardlink" href="listing.html">
+            <div class="card">
+                <div class="cardpic three">
+                </div>
+                <div class="carddetail">
+                    <span>D!evmato Pro</span>
+                </div>
+                
+            </div>
+        </a>
+        <a class="cardlink" href="listing.html">
+            <div class="card">
+                <div class="cardpic four">
+                </div>
+                <div class="carddetail">
+                    <span>Nightlife & Clubs</span>
+                </div>
+                
+            </div>
+        </a>
+    </div>
+    <div class="sec3">
+        <div class="sec3head">
+        <h1>Collections</h1>
+        <h2>Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends.</h2>
+        </div>
+        <a class="collink ek" href="#">
+            <div class="coll ">
+                <div class="colpic">
+                    <h3>Craving Chai?</h3>
+                    <h4>11 Places <i class="fa-solid fa-caret-right"></i></h4>
+                </div>
+            </div>
+        </a>
+        <a class="collink dho" href="#">
+            <div class="coll ">
+                <div class="colpic">
+                    <h3>Newly Opened </h3>
+                    <h4>9 Places <i class="fa-solid fa-caret-right"></i></h4>
+                </div>
+            </div>
+        </a>
+        <a class="collink theen" href="#">
+            <div class="coll ">
+                <div class="colpic">
+                    <h3>Trending this Week</h3>
+                    <h4>15 Places <i class="fa-solid fa-caret-right"></i></h4>
+                </div>
+            </div>
+        </a>
+        <a class="collink char" href="#">
+            <div class="coll">
+                <div class="colpic">
+                    <h3>Best Bars and pubs</h3>
+                    <h4>20 Places <i class="fa-solid fa-caret-right"></i></h4>
+                </div>
+            </div>
+        </a>
+        
+
+    </div><!--Sec2-->
     <footer>
         <div>
         <hr>
         <br>
-        <h2>Assignment-I, Edureka Fullstack internship Program</h2>
-        <h3>&copy;Copy Rights Reserved by <span>KOUSHAL KANDAGATLA</span></h3>
-        <h4>Tools  Used: HTML & CSS</h4>
+        <h2>&#8482; <u>D!-E V M A T O</u><span id="emo">&#127828;</span> </h2>
+        <h3>&copy; Copy Rights Reserved</h3>
+        <h3>website developed by <span>KOUSHAL KANDAGATLA.</span>.</h3>
+        <h6>Tools  Used: HTML & CSS.</h6>
+        <br><br>
     </footer>
-
+    
 </body>
 </html>
-
