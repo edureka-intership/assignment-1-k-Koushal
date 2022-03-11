@@ -1,0 +1,1 @@
+alert('Welcome to my Food-Delivery-web-app.\nClick on "Order Food Online" Card to go to assignment-1 page')

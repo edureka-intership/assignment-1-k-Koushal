@@ -3,9 +3,11 @@
     margin:0%;
 }
 body{
-    width:auto;
+    display:block;
+    justify-content: center;
     height:auto;
-    max-width: 1336px;;
+    max-width: 1336px;
+    min-width: 1200px;
 }
 .head{
     position: relative;
